@@ -1,0 +1,154 @@
+
+body {
+  color: #40514e;
+  text-align: center;
+  margin: 0;
+  font-family: "Merriweather", serif;
+  outline: 1px solid #2980b9 !important;
+  
+}
+
+.container {
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 10px;
+  
+  }
+
+.cloud1 {
+  position: absolute;
+  top: 40px;
+  left: 900px; 
+}
+
+.cloud2 {
+  position: absolute;
+  top: 415px;
+  right: 950px; 
+}
+
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-size: 5.625rem ;
+  font-family: "Sacramento", cursive;
+  color:#66bfbf;
+  
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color:#66bfbf;
+}
+
+h3 {
+  color:#66bfbf;
+  
+
+}
+ 
+.title {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.container-gap {
+  height: 100px;
+  background-color: white;
+}
+
+.middle-container {
+  background-color: white;
+}
+
+.profile-picture {
+  width: 15%;
+  border-radius: 50%;
+}
+
+.txt {
+  width: 30%;
+  margin: auto;
+}
+
+.txt2 {
+  width: 40%;
+  margin: auto;
+}
+
+P {
+  line-height: 2;
+  
+}
+
+.bcontainer {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  grid-template-rows: repeat(1, 1fr);
+  width: 50%;
+  margin: 100px auto 0 auto;
+  text-align: left;
+  row-gap: 2rem;
+  
+}
+
+.dimg1 {
+  margin-right: 30px;
+}
+
+.getintouch {
+  margin-top: 95px;;
+}
+
+button {
+  margin-top: 40px;
+  background: #11999e;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  outline: 1px solid #ff62ab !important;
+  border: none;
+  height: 40px;
+  width: auto;
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  cursor: pointer;
+}
+
+.last-container {
+  background-color: #66bfbf;
+  position: relative;
+  padding-bottom: 50px 0 20px;
+  margin-top: 50px;
+  height: 170px;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  bottom: 10px;
+  text-align: center;
+  
+}
+
+a {
+  font-family: "Montserrat", sans-serif;
+  margin: 15px;
+  text-decoration: none;
+  color: #11999e;
+}
+
+.copyright {
+  padding: 20px 0;
+  font-size: 0.75rem;
+  color: whitesmoke;
+  
+}
